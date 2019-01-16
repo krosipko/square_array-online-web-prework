@@ -1,7 +1,7 @@
 def square_array(array)
   new_numbers[]
-  square_array.each do |place|
-    new_numbers.push square_array[place] ** 2
+  square_array.each do |x|
+    new_numbers = collect.square_array{|x| 2 ** x}
     place +=1
   end
     
